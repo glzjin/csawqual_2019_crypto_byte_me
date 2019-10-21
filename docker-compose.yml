@@ -1,0 +1,8 @@
+version: '3.3'
+
+services:
+  shop:
+    build: .
+    image: ctftraining/csawquals_2019_crypto_byte_me
+    ports:
+      - "8060:8000"
