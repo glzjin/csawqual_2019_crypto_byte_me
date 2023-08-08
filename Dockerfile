@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.18.3
 
 RUN apk add --no-cache socat python2 build-base python2-dev 
 RUN python2 -m ensurepip &&\
